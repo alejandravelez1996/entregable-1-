@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::after, *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  h1, h2 , h3, h4, h5, h6 {
+    margin: 0;
+  }
+  .title {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    grid-column: 1;
+  }
+  .title-fortune{
+    font-size: 50px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .phrase {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    padding: 6.8%;
+    width: 80%;
+    height: 50%;
+    opacity: 0.5;
+    transition: all 200ms ease;
+    margin: 30px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .phrase:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 0.8em;
+  
+  }
+  .footer {
+    font-family: 'Noto Serif', serif;
+  }
+  .Button {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+  }
+  
